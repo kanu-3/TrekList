@@ -1,21 +1,23 @@
-<<<<<<< HEAD
 # TrekList
-Task Management App
-=======
-# flutter_application_1
 
-A new Flutter project.
+TrekList is a lightweight Flutter task & event management app built for trekkers and outdoor groups.  
+It provides a calendar-focused UI, task creation/editing, and Riverpod-based state management to help plan and execute treks.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## What’s included
+- Flutter app (Android / iOS / Web)
+- Calendar view using `table_calendar`
+- Task CRUD with Riverpod providers
+- Project-ready `.gitignore`, CI workflow, and README
 
-A few resources to get you started if this is your first Flutter project:
+## Trade-offs & rationale
+### hat I prioritized:
+1. Fast iteration & UX: Clean UI and calendar interactions.
+2. Simplicity: Local data + DAO instead of full backend to get a working MVP quickly.
+3. Testability: Separation of providers and data layer for easier unit tests.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> db933a5 (first commit)
+### Known limitations
+1. No cloud sync: Local only — multi-device sync requires backend (Supabase/Firebase).
+2. No push notifications: Useful for reminders but needs FCM / platform setup.
+3. No user authentication: For team features or verified postings, an auth layer would be needed.
