@@ -12,7 +12,7 @@ It provides a calendar-focused UI, task creation/editing, and Riverpod-based sta
 - Project-ready `.gitignore`, CI workflow, and README
 
 ## Trade-offs & rationale
-### hat I prioritized:
+### What I prioritized:
 1. Fast iteration & UX: Clean UI and calendar interactions.
 2. Simplicity: Local data + DAO instead of full backend to get a working MVP quickly.
 3. Testability: Separation of providers and data layer for easier unit tests.
