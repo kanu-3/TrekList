@@ -9,7 +9,7 @@ It provides a calendar-focused UI, task creation/editing, and Riverpod-based sta
 - Flutter app (Android / iOS / Web)
 - Calendar view using `table_calendar`
 - Task CRUD with Riverpod providers
-- Project-ready `.gitignore`, CI workflow, and README
+- Due date filtering
 
 ## Trade-offs & rationale:
 ### What I prioritized:
